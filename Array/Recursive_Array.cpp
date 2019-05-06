@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int *v = new int[1000];
+int *v = new int[10000];
 
 void preenche(int i, int j) {
 	if (i < j) {
@@ -21,7 +21,7 @@ void mostra(int i, int j) {
 }
 
 int main() {
-	preenche(0, 1000);
-	mostra(0, 1000);
+	preenche(0, 10000);
+	mostra(0, 10000);
 	return 0;
 }
